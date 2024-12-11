@@ -1,0 +1,24 @@
+//Mit dem Programm Code::Blocks -> File-> New/Project/ConsoleApplication -> Build&Run
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    system("chcp 1252");
+    system("cls");
+    //Variablen
+    int breiteRechteck, hoeheRechteck, flaecheRechteck;
+    //Eingabe
+    printf("Bitte Breite des Rechtecks in cm an (ohne Kommastellen): ");
+    scanf("%d", &breiteRechteck);
+    fflush (stdin);
+    printf("Bitte die Höhe des Rechtecks in cm eingeben (ohne Kommastellen): ");
+    scanf("%d", &hoeheRechteck);
+    //Verarbeitung
+    flaecheRechteck=breiteRechteck*hoeheRechteck;
+    //Ausgabe
+    printf("Der Flächeninhalt beträgt: %d qcm\n", flaecheRechteck);
+    system("pause");
+    return 0;   
+    }

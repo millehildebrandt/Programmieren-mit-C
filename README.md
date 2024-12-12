@@ -19,6 +19,13 @@ Die objektorientierte Programmierung basiert auf einem Ordnungsprinzip, bei dem 
 Die funktionale Programmierung basiert auf Funktionen und verwendet oft Rekursion, statt Schleifen. Sie vermeidet Änderungen an Daten und konzentriert sich auf die Definition von Ausgaben anhand von Eingaben. 
 <h4>(5) logische Programmierung (für mathematische Beweise)</h4> 
 Die logische Programmierung wird verwendet, um Probleme durch logisches Denken zu lösen. Sie ist nützlich für mathematische Beweise und basiert darauf, Regeln und Fakten anzugeben, aus denen der Computer Schlussfolgerungen zieht. 
+<h3>Entwicklungsumgebung (IDE):</h3> 
+Eine IDE (Integrierte Entwicklungsumgebung/ Integrated Development Enviroment) ist eine Software, die Programmierer bei der Entwicklung von Programmen unterstützt. Sie beinhaltet typischerweise folgende Komponenten: <br>
+<b>Editor:</b> Ein Texteditor, in dem der Programmcode geschrieben wird.  <br>
+<b>Compiler (oder Interpreter):</b> Übersetzt den geschriebenen Code in eine für den Computer verständliche Sprache.  <br>
+<b>Präprozessor:</b> Ein Teil des Compilers, der den Code vor der eigentlichen Übersetzung bearbeitet (z. B. durch das Einfügen von Header-Dateien oder das Ersetzen von Makros).  <br>
+<b>Debugger:</b> Ein Tool, das hilft, Fehler im Code zu finden und zu beheben, indem es den Programmablauf Schritt für Schritt überwacht.  <br>
+Diese Komponenten arbeiten zusammen, um den Programmierprozess zu vereinfachen und zu beschleunigen. <br>
 <h3>Quellcode</h3>
 Quellcode ist einfach der Text, den du in einer höheren Programmiersprache schreibst. 
 <br> Zum Beispiel: 

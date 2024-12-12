@@ -11,4 +11,5 @@ Das ist Quellcode. Der Computer versteht es erst, wenn es in Maschinensprache ü
 
 *Maschinensprache:* Nur Einsen und Nullen, direkt für den Computer. <br>
 *Höhere Programmiersprachen:* Für Menschen verständlich, wird später für den Computer übersetzt. <br>
-*Quellcode:* Der Text, den du in einer höheren Sprache schreibst, bevor er übersetzt wird. 
+*Quellcode:* Der Text, den du in einer höheren Sprache schreibst, bevor er übersetzt wird. <br>
+*Compiler oder Interpreter*: Die höhere Sprache wird in Maschinensprache umgewandelt, damit der Computer sie verstehen kann. 

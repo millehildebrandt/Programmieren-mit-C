@@ -1,4 +1,4 @@
-//Datum:09.12.24
+//Datum:10.12.24
 /* Die Funktion printf ist (zumindest der reinen Lehre nach) dem Computer unbekannt.
 Der Compiler weiß also nicht, was er zu tun hat, wenn er den Befehl printf kompilieren soll.
 Daher muss zunächst eine Bibliothek eingeführt werden, in der dies "erklärt" wird.

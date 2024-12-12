@@ -1,0 +1,10 @@
+//Datum:09.12.24
+//Code-Ausschnitt
+printf("\tHallo\nWelt");
+
+/* Natürlich können auch mehrere Format-Symbole gleichzeitig genutzt werden:
+Konsolen-Ausgabe:
+      Hallo
+Welt */
+
+

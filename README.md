@@ -1,4 +1,4 @@
-# Programmieren-mit-C
+# Programmieren-mit-ANSI-C
 Umschulung:  <br>
 09.12.2024 - 10.01.2025 <br>
 TF_US_P1_Programmiersprachen und prozedurale Programmierung <br>

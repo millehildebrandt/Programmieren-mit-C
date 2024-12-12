@@ -8,3 +8,7 @@ Was ist das? <br> Quellcode ist einfach der Text, den du in einer höheren Progr
 python 
 x = 5 y = 10 print(x + y)  
 Das ist Quellcode. Der Computer versteht es erst, wenn es in Maschinensprache übersetzt wird. 
+
+*Maschinensprache:* Nur Einsen und Nullen, direkt für den Computer. <br>
+*Höhere Programmiersprachen:* Für Menschen verständlich, wird später für den Computer übersetzt. <br>
+*Quellcode:* Der Text, den du in einer höheren Sprache schreibst, bevor er übersetzt wird. 

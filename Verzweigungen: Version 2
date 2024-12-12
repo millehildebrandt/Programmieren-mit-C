@@ -1,0 +1,36 @@
+// Version 2
+/*
+Name:   V_01_04_V2.c
+Funktion: wie V_01_04.c, nur mittels einseitiger Verzweigung
+Datum:  12.12.24
+Autor:  U.S.
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    system("chcp 1252");
+    system("cls");
+    // Variablen
+    int aktJahr, gebJahr, alter;
+    char schonGeburtstagGehabt;
+    // Eingaben
+    printf("Bitte das aktuelle Jahr eingeben: ");
+    scanf("%d",&aktJahr);
+    fflush(stdin);
+    printf("Bitte das Geburtsjahr eingeben: ");
+    scanf("%d",&gebJahr);
+    fflush(stdin);
+    printf("Schon Geburtstag gehabt (j/n): ");
+    scanf("%c",&schonGeburtstagGehabt);
+    // Verarbeitung
+    alter=aktJahr-gebJahr;  // wird IN JEDEM FALL ermittelt
+    if('j'!=schonGeburtstagGehabt)
+    {
+        alter=alter-1;      // Alterskorrektur, falls noch kein Geburtstag
+    }
+    // Ausgabe
+    printf("Sie sind %d Jahre alt.",alter);
+    return 0;
+}

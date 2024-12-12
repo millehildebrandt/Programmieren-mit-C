@@ -1,7 +1,7 @@
 # Programmierung (ANSI C)
 Umschulung:  <br>
 09.12.2024 - 10.01.2025 <br>
-TF_US_P1_Programmiersprachen und prozedurale Programmierung <br>
+TF_US_P1_Programmiersprachen und prozeduale Programmierung <br>
 
 <h3>ANSI-Standardisierung</h3>
 1989 standardisierte das American National Standards Institute (ANSI) die Sprache C und legte fest, wie C-Programme geschrieben werden sollten, damit sie auf allen Systemen gleich funktionieren. Diese standardisierte Version wird als ANSI C bezeichnet (auch als C89 bekannt). <br>

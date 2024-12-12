@@ -1,0 +1,21 @@
+#include<NameDerBibliothek> //benötigte Bibliotheken eingebunden
+... //Präprozessor-Anweisungen beginnen stets mit dem Hash-Symbol
+#define ... (später erklärt)
+... // (eigene) Funktionen (später erklärt)
+
+main() // int main(int argc, char *argv) später erklärt
+// warning: return type defaults to 'int' [-Wimplicit-int] -> Warnung erst beim Thema Funktionen relevant 
+{
+  Anweisung1;
+  Anweisung2;
+       ...
+       // einzeiliger Kommentar oder
+
+/*
+  mehrzeiliger Kommentar
+  ...
+*/
+
+// return 0; später erklärt
+
+}

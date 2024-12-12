@@ -1,3 +1,4 @@
+//Datum:10.12.24
 main()
 {
   int zahl=5;                        //definieren: int, char, float

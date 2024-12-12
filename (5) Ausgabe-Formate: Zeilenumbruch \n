@@ -1,0 +1,10 @@
+//Datum:09.12.24
+//Code-Ausschnitt
+
+printf("Hallo\Welt");
+
+/*Das Format-Zeichen \n (="next Line") sorgt für einen Umbruch:
+Konsolen-Ausgabe:
+Hallo
+Welt
+*/

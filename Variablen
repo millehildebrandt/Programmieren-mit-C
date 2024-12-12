@@ -1,0 +1,35 @@
+main()
+{
+  int zahl=5;                        //definieren: int, char, float
+  char zeichen='w';                  //deklarieren: zahl, zeichen, x
+  float x=2.355;                     //initialisieren: 5, 'w', 2.355
+
+
+//alle Variablen müssen in einem Quellcode vor der ersten Verwenung deklariert und definiert werden! -> definieren+deklarieren,
+//eine sofortige Initialisierung ist aber nicht zwingend gefordert:
+float kommazahl;
+
+}
+
+//Zuweisungen:
+main()
+{
+  int a=1;                  
+  int b=2;                   
+  int c=3;
+//Erste Zuweisungen werden als Initialisierung bezeichnet
+  */Die Definition (Und Deklaration) jeder einzelnen Variable geschieht natürlich stets nur einmalig:
+                                   // int x; // Deklaration: Die Variable x wird erstellt und ist vom Typ int.
+                                   // x = 10; // Zuweisung: Die Variable x bekommt den Wert 10.
+                                  // int x; // Fehler: x wurde schon deklariert.
+
+a=5;
+b=6;
+c=7;
+//Erst beim Überschreiben wird von einer Zuweisung gesprochen
+
+a= a+1 ;
+b= 2*b ;   //die Resultate von Rechnungen können zugewiesen werden
+c= a+b ;
+
+}

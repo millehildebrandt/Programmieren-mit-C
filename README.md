@@ -1,7 +1,7 @@
 # Programmieren-mit-C
-Umschulung:
-09.12.2024 - 10.01.2025
-TF_US_P1_Programmiersprachen und prozedurale Programmierung
+Umschulung:  <br>
+09.12.2024 - 10.01.2025 <br>
+TF_US_P1_Programmiersprachen und prozedurale Programmierung <br>
 
 *Quellcode:* <br>
 Was ist das? <br> Quellcode ist einfach der Text, den du in einer höheren Programmiersprache schreibst. 

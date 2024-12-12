@@ -1,4 +1,4 @@
-//Datum:09.12.24
+//Datum:10.12.24
 //Code-Ausschnitt
 int zahl=123;
 printf("Die Zahl %d ist einfach toll :-D", zahl);

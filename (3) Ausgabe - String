@@ -1,0 +1,11 @@
+//Datum:09.12.24
+//Mit der Funktion printf können Texte auf der Konsole ausgegeben werden
+//Solche Texte werden auch als "Zeichenkette" oder "String" bezeichnet
+//Code-Ausschnitt:
+printf("Hallo Welt");
+
+Konsolen-Ausgabe:
+Hallo Welt
+
+//Um den Compiler deutlich zu machen, 
+wo ein String anfängt und wo er aufhört, muss er stets in (doppelten) Anführungszeichen notiert werden!

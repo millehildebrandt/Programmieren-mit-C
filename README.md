@@ -7,8 +7,11 @@ TF_US_P1_Programmiersprachen und prozedurale Programmierung <br>
 1989 standardisierte das American National Standards Institute (ANSI) die Sprache C und legte fest, wie C-Programme geschrieben werden sollten, damit sie auf allen Systemen gleich funktionieren. Diese standardisierte Version wird als ANSI C bezeichnet (auch als C89 bekannt). <br>
 Heutiger Standard: Die meisten C-Versionen heute basieren auf ANSI C, aber sie haben weitere Erweiterungen (z. B. C99, C11, C17). 
 
-<h3>Imperative (=prozeduale) Programmierung</h3>
-Abfolge von Befehlen, bei dem man der Reihe nach alle Handlungsschritte auflistet.
+<h3>Arten des Programmierens</h3>
+<h4>(1) Imperative (=prozeduale) Programmierung</h4>
+In der imperativen Programmierung gibt man eine Reihenfolge von Befehlen vor, die der Computer Schritt für Schritt ausführt, um ein Ziel zu erreichen. Man beschreibt also genau, wie etwas gemacht werden soll.
+<h4>(2) deklarative Sprachen</h4>
+In deklarativen Sprachen beschreibt man nur das Ziel, nicht die einzelnen Schritte. Der Compiler oder Interpreter entscheidet selbst, welche Schritte nötig sind, um das Ziel zu erreichen. 
 
 <h3>Quellcode</h3>
 Quellcode ist einfach der Text, den du in einer höheren Programmiersprache schreibst. 

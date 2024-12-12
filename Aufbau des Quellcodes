@@ -1,3 +1,5 @@
+//Datum:09.12.24
+
 #include<NameDerBibliothek> //benötigte Bibliotheken eingebunden
 ... //Präprozessor-Anweisungen beginnen stets mit dem Hash-Symbol
 #define ... (später erklärt)

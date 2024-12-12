@@ -3,6 +3,9 @@ Umschulung:  <br>
 09.12.2024 - 10.01.2025 <br>
 TF_US_P1_Programmiersprachen und prozedurale Programmierung <br>
 
+<h3>ANSI-Standardisierung:</h3>
+1989 standardisierte das American National Standards Institute (ANSI) die Sprache C und legte fest, wie C-Programme geschrieben werden sollten, damit sie auf allen Systemen gleich funktionieren. Diese standardisierte Version wird als ANSI C bezeichnet. 
+
 <h3>Quellcode:</h3>
 Quellcode ist einfach der Text, den du in einer höheren Programmiersprache schreibst. 
 <br> Zum Beispiel: 

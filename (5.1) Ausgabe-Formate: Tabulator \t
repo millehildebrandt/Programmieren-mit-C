@@ -1,0 +1,8 @@
+//Datum:09.12.24
+//Code-Ausschnitt:
+printf("\tHallo Welt");
+
+//Das Format-Zeichen \t sorgt für einen Tabulator-Sprung (also ein "Einrücken")
+/*Konsolen-Ausgabe:
+          Hallo Welt
+*/

@@ -1,0 +1,29 @@
+//Code-Ausschnitt
+int zahl=123;
+printf("Die Zahl %d ist einfach toll :-D", zahl);
+
+/* %d (=dezimal) ist der Platzhalter für ganze Zahlen
+zahl-> Hinter dem String und durch Komma getrennt werden die auszugebenden Variablen notiert*/
+
+Konsolen-Ausgabe:
+Die Zahl 123 ist einfach toll :-D
+
+//Mehrere Variablen (beliebigen Typs) können ausgegeben werden
+
+int i=100;
+char c='g';
+float f=5234.57;
+printf("%d%cGold kosten %f Euro", i, c, f);
+
+Konsolen-Ausgabe:
+100g Gold Kosten 5234.570000 Euro
+
+//Die Anzahl der ausgegebenen Nachkommastellen kann festgelegt werden. (Es wird mathematish korrekt gerundet) 
+printf("%d%c Gold kosten %.2f Euro", i, c, f);
+
+Konsolen-Ausgabe:
+100g Gold kosten 5234.57 Euro
+
+
+
+

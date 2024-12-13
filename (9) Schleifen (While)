@@ -1,0 +1,28 @@
+//Datum: 13.12.24
+
+#include<stdio.h> 
+
+main() 
+
+{ 
+
+     int x; 
+
+     printf(“Geben Sie bitte eine ganze Zahl ein: “); 
+
+     scanf(“%d“,&x); 
+
+
+     while(x>1)    //Schleifenkopf                               /*  Schleife beginnt bei while(x>1) bis -->
+                   // Bedingung: x>1
+    { 
+                x=x/2;                                  /* Schleifenrumpf --->
+                printf(“Aktueller Wert von x: %d\n“,x);  --> bis hier */
+
+    }                                                           -->  (Schleife) hier */     
+
+      printf(“Die Schleife wurde abgearbeitet“); 
+
+} 
+
+ 

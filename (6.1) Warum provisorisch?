@@ -1,0 +1,25 @@
+#include<stdio.h>  // Einbinden der Standardbibliothek für Ein- und Ausgabe
+
+main()  // Hauptfunktion des Programms
+{
+    int aktJahr;  // Deklaration einer Variablen für das aktuelle Jahr
+    int gebJahr;  // Deklaration einer Variablen für das Geburtsjahr
+    int alter;     // Deklaration einer Variablen für das berechnete Alter
+
+    // Problem 1: Es fehlt eine Eingabeaufforderung für den Benutzer
+    // Lösung: Vor der scanf-Anweisung einen Hinweis für den Benutzer ausgeben
+    printf("Geben Sie bitte das aktuelle Jahr ein: ");  
+    // Benutzer gibt das aktuelle Jahr ein, das in aktJahr gespeichert wird
+    scanf("%d", &aktJahr);  
+
+    // Ausgabeaufforderung für das Geburtsjahr
+    printf("Geben Sie bitte Ihr Geburtsjahr ein: ");  
+    // Benutzer gibt das Geburtsjahr ein, das in gebJahr gespeichert wird
+    scanf("%d", &gebJahr);  
+
+    // Berechnung des Alters: Differenz zwischen aktuellem Jahr und Geburtsjahr
+    alter = aktJahr - gebJahr;  
+
+    // Ausgabe des berechneten Alters
+    printf("Dieses Jahr werden (oder wurden) Sie %d", alter);  
+}

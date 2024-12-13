@@ -1,0 +1,30 @@
+#include<stdio.h>  // Einbinden der Standardbibliothek für Ein- und Ausgabe
+
+main()  // Hauptfunktion des Programms
+{
+    int aktJahr;  // Deklaration einer Variablen für das aktuelle Jahr
+    int gebJahr;  // Deklaration einer Variablen für das Geburtsjahr
+    int alter;     // Deklaration einer Variablen für das berechnete Alter
+
+    // Problem 2: Der Tastaturpuffer enthält nach der ersten Eingabe noch den alten Inhalt.
+    // Lösung: Um sicherzustellen, dass die Eingabe des Benutzers korrekt aus dem Puffer gelesen wird,
+    // muss der Puffer nach jeder Eingabe gelöscht werden.
+    
+    printf("Geben Sie bitte das aktuelle Jahr ein: ");  
+    // Benutzer gibt das aktuelle Jahr ein, das in aktJahr gespeichert wird
+    scanf("%d", &aktJahr);  
+
+    // Vor der zweiten Eingabe löschen wir den Tastaturpuffer, um unerwünschte Eingabewerte zu vermeiden
+    fflush(stdin);  // Löscht den Tastaturpuffer, um nachfolgende Eingaben zu ermöglichen
+
+    // Ausgabeaufforderung für das Geburtsjahr
+    printf("Geben Sie bitte Ihr Geburtsjahr ein: ");  
+    // Benutzer gibt das Geburtsjahr ein, das in gebJahr gespeichert wird
+    scanf("%d", &gebJahr);  
+
+    // Berechnung des Alters: Differenz zwischen aktuellem Jahr und Geburtsjahr
+    alter = aktJahr - gebJahr;  
+
+    // Ausgabe des berechneten Alters
+    printf("Dieses Jahr werden (oder wurden) Sie %d", alter);  
+}

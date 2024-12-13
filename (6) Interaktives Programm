@@ -1,0 +1,43 @@
+#include<stdio.h>  // Einbinden der Standardbibliothek für Ein- und Ausgabe
+
+main()  // Hauptfunktion, die beim Starten des Programms ausgeführt wird
+{
+    int aktJahr;  // Variable für das aktuelle Jahr
+    int gebJahr;  // Variable für das Geburtsjahr
+    int alter;     // Variable zur Berechnung des Alters
+
+    // Eingabe des aktuellen Jahres vom Benutzer
+    // %d gibt an, dass es sich um einen Integer handelt und & gibt die Adresse der Variable aktJahr an
+    scanf("%d", &aktJahr);  
+
+    // Eingabe des Geburtsjahres vom Benutzer
+    // %d gibt an, dass es sich um einen Integer handelt und & gibt die Adresse der Variable gebJahr an
+    scanf("%d", &gebJahr);  
+
+    // Berechnung des Alters
+    alter = aktJahr - gebJahr;  // Subtraktion des Geburtsjahres vom aktuellen Jahr
+
+    // Ausgabe des Alters
+    // %d gibt an, dass die Variable alter als Integer ausgegeben wird
+    printf("Dieses Jahr werden (oder wurden) Sie %d", alter); 
+}
+
+ohne Kommentare: 
+
+ #include<stdio.h>
+
+main()
+
+{
+    int aktJahr;
+    int gebJahr;
+    int alter;
+ 
+    scanf(“%d“,&aktJahr);   
+    scanf(“%d“,&gebJahr);  
+    alter=aktJahr-gebJahr;
+    printf(“Dieses Jahr werden (oder wurden) Sie %d“,alter);
+
+}
+
+

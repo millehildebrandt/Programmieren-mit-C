@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+main()
+{
+    // Variable zur Speicherung des aktuellen Jahres
+    int aktJahr;
+    int gebJahr;
+    // Variable zur Speicherung, ob der Benutzer dieses Jahr bereits Geburtstag hatte (j/n)
+    char schonGeburtstagGehabt;
+    int alter;
+
+    // Aufforderung zur Eingabe des aktuellen Jahres
+    printf("Geben Sie bitte das aktuelle Jahr ein: ");
+    scanf("%d", &aktJahr);
+
+    printf("Geben Sie bitte Ihr Geburtsjahr ein: ");
+    fflush(stdin);
+    scanf("%d", &gebJahr);
+
+    printf("Hatten Sie dieses Jahr schon Geburtstag (j/n): ");
+    fflush(stdin);
+    scanf(" %c", &schonGeburtstagGehabt);
+
+    // Überprüfung, ob der Benutzer dieses Jahr bereits Geburtstag hatte, und entsprechende Berechnung des Alters
+    if (schonGeburtstagGehabt == 'j') {
+        alter = aktJahr - gebJahr;
+    } else {
+        alter = aktJahr - gebJahr - 1;
+    }
+
+    // Ausgabe des berechneten Alters
+    printf("Sie sind %d Jahre alt\n", alter);
+}

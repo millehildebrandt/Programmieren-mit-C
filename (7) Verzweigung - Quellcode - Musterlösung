@@ -1,0 +1,32 @@
+//Datum: 12.12.24
+
+#include<stdio.h> 
+
+main()  
+
+{  
+
+    int aktJahr;  
+    int gebJahr;  
+    char schonGeburtstagGehabt  
+    int alter;  
+
+    printf(“Geben Sie bitte das aktuelle Jahr ein: “);  
+    scanf(“%d“,&aktJahr);  
+    printf(“Geben Sie bitte Ihr Geburtsjahr ein: “);  
+    fflush(stdin);  
+    scanf(“%d“,&gebJahr);  
+    printf(“Hatten Sie dieses Jahr schon Geburtstag (j/n) : “);  
+    fflush(stdin);  
+    scanf(“%c“,& schonGeburtstagGehabt);  
+
+  if(schonGeburtstagGehabt==‘j‘) // Verzweigung: If, else
+  {         
+          alter=aktJahr-gebJahr;  
+  }  
+  else  
+  {  
+        alter=aktJahr-gebJahr-1;  
+  }  
+   printf(“Sie sind %d Jahre alt“,alter);  
+} 

@@ -1,3 +1,5 @@
+//Datum: 11.12.24
+
 #include<stdio.h>  // Einbinden der Standardbibliothek für Ein- und Ausgabe
 
 main()  // Hauptfunktion des Programms
